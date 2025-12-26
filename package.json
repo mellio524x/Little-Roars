@@ -2,19 +2,23 @@
   "name": "little-roars-frontend",
   "version": "0.0.1",
   "private": true,
+  "homepage": "https://little-roars.app",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "YOUR_BUILD_COMMAND",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "18.2.0",
+    "react-calendar": "4.0.0",
     "react-dom": "18.2.0",
-    "react-router-dom": "6.14.1",
-    "react-calendar": "4.0.0"
+    "react-router-dom": "6.14.1"
   },
   "devDependencies": {
-    "vite": "4.5.0",
-    "@vitejs/plugin-react": "4.0.0"
+    "@vitejs/plugin-react": "4.0.0",
+    "gh-pages": "^6.3.0",
+    "vite": "4.5.0"
   }
+
+  
+  
 }
